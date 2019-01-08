@@ -1,0 +1,12 @@
+E:\_Project\Common\Rohm.EMS\EmsConsoleClient\bin\Debug\EmsConsoleClient.exe.config
+E:\_Project\Common\Rohm.EMS\EmsConsoleClient\bin\Debug\EmsConsoleClient.exe
+E:\_Project\Common\Rohm.EMS\EmsConsoleClient\bin\Debug\EmsConsoleClient.pdb
+E:\_Project\Common\Rohm.EMS\EmsConsoleClient\obj\Debug\ResolveAssemblyReference.cache
+E:\_Project\Common\Rohm.EMS\EmsConsoleClient\obj\Debug\EmsConsoleClient.exe
+E:\_Project\Common\Rohm.EMS\EmsConsoleClient\obj\Debug\EmsConsoleClient.pdb
+D:\Repositories\Rohm.EMS\EmsConsoleClient\bin\Debug\EmsConsoleClient.exe.config
+D:\Repositories\Rohm.EMS\EmsConsoleClient\bin\Debug\EmsConsoleClient.exe
+D:\Repositories\Rohm.EMS\EmsConsoleClient\bin\Debug\EmsConsoleClient.pdb
+D:\Repositories\Rohm.EMS\EmsConsoleClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Repositories\Rohm.EMS\EmsConsoleClient\obj\Debug\EmsConsoleClient.exe
+D:\Repositories\Rohm.EMS\EmsConsoleClient\obj\Debug\EmsConsoleClient.pdb

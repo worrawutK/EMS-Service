@@ -1,0 +1,10 @@
+D:\Repositories\Rohm.EMS\TmeCaculatorService\bin\Debug\TmeCalculatorService.exe.config
+D:\Repositories\Rohm.EMS\TmeCaculatorService\bin\Debug\TmeCalculatorService.exe
+D:\Repositories\Rohm.EMS\TmeCaculatorService\bin\Debug\TmeCalculatorService.pdb
+D:\Repositories\Rohm.EMS\TmeCaculatorService\bin\Debug\Rohm.Ems.dll
+D:\Repositories\Rohm.EMS\TmeCaculatorService\bin\Debug\Rohm.Ems.pdb
+D:\Repositories\Rohm.EMS\TmeCaculatorService\obj\Debug\ResolveAssemblyReference.cache
+D:\Repositories\Rohm.EMS\TmeCaculatorService\obj\Debug\TmeCalculatorService.ProjectInstaller.resources
+D:\Repositories\Rohm.EMS\TmeCaculatorService\obj\Debug\TmeCalculatorService.csproj.GenerateResource.Cache
+D:\Repositories\Rohm.EMS\TmeCaculatorService\obj\Debug\TmeCalculatorService.exe
+D:\Repositories\Rohm.EMS\TmeCaculatorService\obj\Debug\TmeCalculatorService.pdb

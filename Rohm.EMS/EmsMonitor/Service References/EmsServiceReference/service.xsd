@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ReportActivity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="machineID" type="xs:int" />
+        <xs:element minOccurs="0" name="activityID" type="xs:int" />
+        <xs:element minOccurs="0" name="processID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReportActivityResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReportLotEnd">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="machineID" type="xs:int" />
+        <xs:element minOccurs="0" name="lotNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="inputQty" type="xs:int" />
+        <xs:element minOccurs="0" name="goodOutput" type="xs:int" />
+        <xs:element minOccurs="0" name="ngOutput" type="xs:int" />
+        <xs:element minOccurs="0" name="processID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReportLotEndResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Connect">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="areaID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConnectResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MachineActivityChanged">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="machineID" type="xs:int" />
+        <xs:element minOccurs="0" name="activityID" type="xs:int" />
+        <xs:element minOccurs="0" name="processID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MachineActivityChangedResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MachineLotEnd">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="machineID" type="xs:int" />
+        <xs:element minOccurs="0" name="lotNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="inputQty" type="xs:int" />
+        <xs:element minOccurs="0" name="goodOutput" type="xs:int" />
+        <xs:element minOccurs="0" name="ngOutput" type="xs:int" />
+        <xs:element minOccurs="0" name="processID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MachineLotEndResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KeepAlive">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KeepAliveResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,23 @@
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\bin\Debug\EmsCalcutorServiceWinApp.exe
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\bin\Debug\EmsCalcutorServiceWinApp.pdb
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\bin\Debug\Rohm.Ems.dll
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\bin\Debug\Rohm.Ems.pdb
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\ResolveAssemblyReference.cache
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\EmsCalcutorServiceWinApp.Form1.resources
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\EmsCalcutorServiceWinApp.Properties.Resources.resources
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\TmeCalcutorServiceWinApp.csproj.GenerateResource.Cache
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\EmsCalcutorServiceWinApp.exe
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\EmsCalcutorServiceWinApp.pdb
+D:\_Project\004627 [Tanapat S.]\Common\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\EmsCalcutorServiceWinApp.exe
+D:\_Project\004627 [Tanapat S.]\Common\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\EmsCalcutorServiceWinApp.pdb
+D:\Repositories\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\ResolveAssemblyReference.cache
+D:\Repositories\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\EmsCalcutorServiceWinApp.Form1.resources
+D:\Repositories\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\EmsCalcutorServiceWinApp.Properties.Resources.resources
+D:\Repositories\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\TmeCalcutorServiceWinApp.csproj.GenerateResource.Cache
+D:\Repositories\Rohm.EMS\EmsCalcutorServiceWinApp\bin\Debug\EmsCalcutorServiceWinApp.exe
+D:\Repositories\Rohm.EMS\EmsCalcutorServiceWinApp\bin\Debug\EmsCalcutorServiceWinApp.pdb
+D:\Repositories\Rohm.EMS\EmsCalcutorServiceWinApp\bin\Debug\Rohm.Ems.dll
+D:\Repositories\Rohm.EMS\EmsCalcutorServiceWinApp\bin\Debug\Rohm.Ems.pdb
+D:\Repositories\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\EmsCalcutorServiceWinApp.exe
+D:\Repositories\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\EmsCalcutorServiceWinApp.pdb
+D:\Repositories\Rohm.EMS\EmsCalcutorServiceWinApp\bin\Debug\EmsCalcutorServiceWinApp.exe.config

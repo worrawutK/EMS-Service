@@ -1,0 +1,10 @@
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\bin\Debug\EmsCalcutorServiceWinApp.exe
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\bin\Debug\EmsCalcutorServiceWinApp.pdb
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\bin\Debug\Rohm.Ems.dll
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\bin\Debug\Rohm.Ems.pdb
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\ResolveAssemblyReference.cache
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\EmsCalcutorServiceWinApp.Form1.resources
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\EmsCalcutorServiceWinApp.Properties.Resources.resources
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\EmsCalcutorServiceWinApp.csproj.GenerateResource.Cache
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\EmsCalcutorServiceWinApp.exe
+E:\_Project\Common\Rohm.EMS\EmsCalcutorServiceWinApp\obj\Debug\EmsCalcutorServiceWinApp.pdb

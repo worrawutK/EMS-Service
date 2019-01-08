@@ -1,0 +1,13 @@
+Line 13: Class Rohm_EMS_VB6Ctl.EmsReport of control EmsReport1 was not a loaded control class.
+Line 19: The property name Object.Visible in EmsReport1 is invalid.
+Line 20: Property Enabled in EmsReport1 had an invalid value.
+Line 21: The property name ForegroundColor in EmsReport1 is invalid.
+Line 22: The property name BackgroundColor in EmsReport1 is invalid.
+Line 23: Property BackColor in EmsReport1 had an invalid value.
+Line 24: Property ForeColor in EmsReport1 had an invalid value.
+Line 25: The property name Location in EmsReport1 is invalid.
+Line 26: The property name MaximumSize in EmsReport1 is invalid.
+Line 27: The property name MinimumSize in EmsReport1 is invalid.
+Line 28: The property name Name in EmsReport1 is invalid.
+Line 29: The property name Size in EmsReport1 is invalid.
+Line 30: The property name Object.TabIndex in EmsReport1 is invalid.

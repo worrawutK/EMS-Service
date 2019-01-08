@@ -1,0 +1,5 @@
+D:\Repositories\Rohm.EMS\WebEms\bin\WebEms.dll
+D:\Repositories\Rohm.EMS\WebEms\bin\WebEms.pdb
+D:\Repositories\Rohm.EMS\WebEms\obj\Debug\ResolveAssemblyReference.cache
+D:\Repositories\Rohm.EMS\WebEms\obj\Debug\WebEms.dll
+D:\Repositories\Rohm.EMS\WebEms\obj\Debug\WebEms.pdb

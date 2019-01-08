@@ -1,0 +1,14 @@
+DateTime:2019-01-03 15:04:26, Function:PrivateRegister, Position:RegisterMachine, ErrorMessage:Could not connect to http://localhost:7777/EmsService. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:7777. , Comment:
+DateTime:2019-01-07 09:18:31, Function:PrivateRegister, Position:RegisterMachine, ErrorMessage:Invalid column name 'AlarmCount'.
+Invalid column name 'BMCount'., Comment:
+DateTime:2019-01-07 09:31:11, Function:PrivateRegister, Position:RegisterMachine, ErrorMessage:Invalid column name 'AlarmCount'.
+Invalid column name 'BMCount'., Comment:
+DateTime:2019-01-07 09:34:15, Function:PrivateRegister, Position:RegisterMachine, ErrorMessage:Invalid column name 'AlarmCount'.
+Invalid column name 'BMCount'., Comment:
+DateTime:2019-01-07 09:36:08, Function:PrivateRegister, Position:RegisterMachine, ErrorMessage:Invalid column name 'AlarmCount'.
+Invalid column name 'BMCount'., Comment:
+DateTime:2019-01-07 09:38:06, Function:PrivateRegister, Position:RegisterMachine, ErrorMessage:Invalid column name 'AlarmCount'.
+Invalid column name 'BMCount'., Comment:
+DateTime:2019-01-07 09:49:53, Function:PrivateRegister, Position:RegisterMachine, ErrorMessage:Invalid column name 'AlarmCount'.
+Invalid column name 'BMCount'., Comment:
+DateTime:2019-01-07 10:44:55, Function:PrivateRegister, Position:RegisterMachine, ErrorMessage:Could not connect to http://localhost:7777/EmsService. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:7777. , Comment:

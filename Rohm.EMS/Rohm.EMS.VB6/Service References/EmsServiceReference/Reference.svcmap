@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0d930550-d10d-4175-b68a-7b65669a2e86" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://webserv.thematrix.net:7777/EmsService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="95d05d3b-39db-4a66-ad00-081c7e0168d5" SourceId="1" SourceUrl="http://webserv.thematrix.net:7777/EmsService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="4c0d38e9-aef4-438a-ab8e-b139d0efad80" SourceId="1" SourceUrl="http://webserv.thematrix.net:7777/EmsService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="6ff69a02-07d5-482f-b78a-b60dc885bd2e" SourceId="1" SourceUrl="http://webserv.thematrix.net:7777/EmsService/mex" />
+    <MetadataFile FileName="Rohm.Ems1.xsd" MetadataType="Schema" ID="62a350dd-0377-46e2-a7c3-d5201af7f5d6" SourceId="1" SourceUrl="http://webserv.thematrix.net:7777/EmsService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

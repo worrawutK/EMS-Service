@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fc799221-3ca5-450a-87c0-4a369a6681c9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://webserv.thematrix.net:7777/EmsService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="5dd30f67-4fe8-41bd-a80c-3cc9d5bfeefa" SourceId="1" SourceUrl="http://webserv.thematrix.net:7777/EmsService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="bb28e271-55d3-4f9f-9894-5073b60299cb" SourceId="1" SourceUrl="http://webserv.thematrix.net:7777/EmsService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="594f95ff-b1e1-440a-914e-1b1f23fe3f3a" SourceId="1" SourceUrl="http://webserv.thematrix.net:7777/EmsService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="EmsServiceUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://webserv.thematrix.net:7777/EmsService</Value>
+    </Setting>
+    <Setting Name="AreaName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FL</Value>
+    </Setting>
+    <Setting Name="ProcessName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FL</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
