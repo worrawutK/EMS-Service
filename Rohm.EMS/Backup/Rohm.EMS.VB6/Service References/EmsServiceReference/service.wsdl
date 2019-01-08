@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="EmsService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_IMonitor_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Rohm.Ems" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IReporter_ReportActivity_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReportActivity" />
+  </wsdl:message>
+  <wsdl:message name="IReporter_ReportActivity_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReportActivityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReporter_ReportLotEnd_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReportLotEnd" />
+  </wsdl:message>
+  <wsdl:message name="IReporter_ReportLotEnd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReportLotEndResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReporter_ReportLotEnd2_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReportLotEnd2" />
+  </wsdl:message>
+  <wsdl:message name="IReporter_ReportLotEnd2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReportLotEnd2Response" />
+  </wsdl:message>
+  <wsdl:message name="IReporter_RegisterMachine_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterMachine" />
+  </wsdl:message>
+  <wsdl:message name="IReporter_RegisterMachine_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterMachineResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReporter_SaveOutputInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveOutputInfo" />
+  </wsdl:message>
+  <wsdl:message name="IReporter_SaveOutputInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveOutputInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReporter_ReportOutput_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReportOutput" />
+  </wsdl:message>
+  <wsdl:message name="IReporter_ReportOutput_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReportOutputResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReporter_SetCurrentActivity_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetCurrentActivity" />
+  </wsdl:message>
+  <wsdl:message name="IReporter_SetCurrentActivity_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetCurrentActivityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMonitor_Connect_InputMessage">
+    <wsdl:part name="parameters" element="tns:Connect" />
+  </wsdl:message>
+  <wsdl:message name="IMonitor_Connect_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConnectResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMonitor_MachineActivityChanged_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:MachineActivityChanged" />
+  </wsdl:message>
+  <wsdl:message name="IMonitor_MachineActivityChanged_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:MachineActivityChangedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMonitor_MachineLotEnd_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:MachineLotEnd" />
+  </wsdl:message>
+  <wsdl:message name="IMonitor_MachineLotEnd_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:MachineLotEndResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMonitor_KeepAlive_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:KeepAlive" />
+  </wsdl:message>
+  <wsdl:message name="IMonitor_KeepAlive_InputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:KeepAliveResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IReporter">
+    <wsdl:operation name="ReportActivity">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReporter/ReportActivity" message="tns:IReporter_ReportActivity_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReporter/ReportActivityResponse" message="tns:IReporter_ReportActivity_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReportLotEnd">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReporter/ReportLotEnd" message="tns:IReporter_ReportLotEnd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReporter/ReportLotEndResponse" message="tns:IReporter_ReportLotEnd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReportLotEnd2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReporter/ReportLotEnd2" message="tns:IReporter_ReportLotEnd2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReporter/ReportLotEnd2Response" message="tns:IReporter_ReportLotEnd2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterMachine">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReporter/RegisterMachine" message="tns:IReporter_RegisterMachine_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReporter/RegisterMachineResponse" message="tns:IReporter_RegisterMachine_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveOutputInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReporter/SaveOutputInfo" message="tns:IReporter_SaveOutputInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReporter/SaveOutputInfoResponse" message="tns:IReporter_SaveOutputInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReportOutput">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReporter/ReportOutput" message="tns:IReporter_ReportOutput_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReporter/ReportOutputResponse" message="tns:IReporter_ReportOutput_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetCurrentActivity">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReporter/SetCurrentActivity" message="tns:IReporter_SetCurrentActivity_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReporter/SetCurrentActivityResponse" message="tns:IReporter_SetCurrentActivity_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IMonitor">
+    <wsdl:operation name="Connect">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMonitor/Connect" message="tns:IMonitor_Connect_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMonitor/ConnectResponse" message="tns:IMonitor_Connect_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MachineActivityChanged">
+      <wsdl:output wsaw:Action="http://tempuri.org/IMonitor/MachineActivityChanged" message="tns:IMonitor_MachineActivityChanged_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IMonitor/MachineActivityChangedResponse" message="tns:IMonitor_MachineActivityChanged_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MachineLotEnd">
+      <wsdl:output wsaw:Action="http://tempuri.org/IMonitor/MachineLotEnd" message="tns:IMonitor_MachineLotEnd_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IMonitor/MachineLotEndResponse" message="tns:IMonitor_MachineLotEnd_InputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="KeepAlive">
+      <wsdl:output wsaw:Action="http://tempuri.org/IMonitor/KeepAlive" message="tns:IMonitor_KeepAlive_OutputCallbackMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IMonitor/KeepAliveResponse" message="tns:IMonitor_KeepAlive_InputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IReporter" type="tns:IReporter">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ReportActivity">
+      <soap:operation soapAction="http://tempuri.org/IReporter/ReportActivity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReportLotEnd">
+      <soap:operation soapAction="http://tempuri.org/IReporter/ReportLotEnd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReportLotEnd2">
+      <soap:operation soapAction="http://tempuri.org/IReporter/ReportLotEnd2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterMachine">
+      <soap:operation soapAction="http://tempuri.org/IReporter/RegisterMachine" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveOutputInfo">
+      <soap:operation soapAction="http://tempuri.org/IReporter/SaveOutputInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReportOutput">
+      <soap:operation soapAction="http://tempuri.org/IReporter/ReportOutput" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetCurrentActivity">
+      <soap:operation soapAction="http://tempuri.org/IReporter/SetCurrentActivity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NetTcpBinding_IMonitor" type="tns:IMonitor">
+    <wsp:PolicyReference URI="#NetTcpBinding_IMonitor_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="Connect">
+      <soap12:operation soapAction="http://tempuri.org/IMonitor/Connect" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MachineActivityChanged">
+      <soap12:operation soapAction="http://tempuri.org/IMonitor/MachineActivityChanged" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MachineLotEnd">
+      <soap12:operation soapAction="http://tempuri.org/IMonitor/MachineLotEnd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KeepAlive">
+      <soap12:operation soapAction="http://tempuri.org/IMonitor/KeepAlive" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EmsService">
+    <wsdl:port name="BasicHttpBinding_IReporter" binding="tns:BasicHttpBinding_IReporter">
+      <soap:address location="http://localhost:7777/EmsService/" />
+    </wsdl:port>
+    <wsdl:port name="NetTcpBinding_IMonitor" binding="tns:NetTcpBinding_IMonitor">
+      <soap12:address location="net.tcp://localhost:7778/EmsService/" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:7778/EmsService/</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Spn>host/WebServ.thematrix.net</Spn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
