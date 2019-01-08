@@ -1,0 +1,2 @@
+DateTime:2017/03/23 09:34:16, Function:PrivateRegister, Position:RegisterMachine, ErrorMessage:Could not connect to http://127.0.0.1:7777/EmsService/. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:7777. , Comment:
+DateTime:2017/08/16 08:46:03, Function:PrivateRegister, Position:RegisterMachine, ErrorMessage:Could not connect to http://127.0.0.1:7777/EmsService/. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:7777. , Comment:

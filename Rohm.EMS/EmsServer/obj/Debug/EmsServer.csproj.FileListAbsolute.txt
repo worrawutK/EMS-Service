@@ -1,0 +1,12 @@
+E:\_Project\Common\Rohm.EMS\EmsServer\bin\Debug\EmsServer.exe.config
+E:\_Project\Common\Rohm.EMS\EmsServer\bin\Debug\EmsServer.exe
+E:\_Project\Common\Rohm.EMS\EmsServer\bin\Debug\EmsServer.pdb
+E:\_Project\Common\Rohm.EMS\EmsServer\bin\Debug\Rohm.Ems.dll
+E:\_Project\Common\Rohm.EMS\EmsServer\bin\Debug\Rohm.Ems.pdb
+E:\_Project\Common\Rohm.EMS\EmsServer\obj\Debug\ResolveAssemblyReference.cache
+E:\_Project\Common\Rohm.EMS\EmsServer\obj\Debug\EmsServer.MainForm.resources
+E:\_Project\Common\Rohm.EMS\EmsServer\obj\Debug\EmsServer.Properties.Resources.resources
+E:\_Project\Common\Rohm.EMS\EmsServer\obj\Debug\EmsServer.csproj.GenerateResource.Cache
+E:\_Project\Common\Rohm.EMS\EmsServer\obj\Debug\EmsServer.exe
+E:\_Project\Common\Rohm.EMS\EmsServer\obj\Debug\EmsServer.pdb
+E:\_Project\Common\Rohm.EMS\EmsServer\bin\Debug\App.config
